@@ -42,6 +42,8 @@ header {
 
 header h1 {
   transform: skewX(-2deg);
+  color: #888;
+  font-size: 2em;
 }
 
 select {
@@ -103,7 +105,9 @@ input {
 .card.m-auto,
 .m-auto {
   margin: 0 auto;
-  width: 500px;
+  width: 700px;
+  font-size: 1.5em;
+  color: #888;
 }
 
 form .workout-type,
@@ -145,6 +149,10 @@ form::after {
 
 .exercise .buttons button {
   width: 100%;
+}
+
+h1, h3 {
+  color: #888;
 }
 
 button {

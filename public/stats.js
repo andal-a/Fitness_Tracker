@@ -18,9 +18,7 @@ API.getWorkoutsInRange()
     "#066aa3",
     "#0da36a",
     "#8451a7",
-    "#a75151",
-    
-
+    "#bc8df1",
   ]
 
   return arr;
