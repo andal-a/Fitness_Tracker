@@ -13,22 +13,14 @@ API.getWorkoutsInRange()
 
   function generatePalette() {
     const arr = [
-    "#003f5c",
-    "#2f4b7c",
-    "#665191",
-    "#a05195",
-    "#d45087",
-    "#f95d6a",
-    "#ff7c43",
-    "ffa600",
-    "#003f5c",
-    "#2f4b7c",
-    "#665191",
-    "#a05195",
-    "#d45087",
-    "#f95d6a",
-    "#ff7c43",
-    "ffa600"
+    "#67a8a8",
+    "#e79aaa",
+    "#066aa3",
+    "#0da36a",
+    "#8451a7",
+    "#a75151",
+    
+
   ]
 
   return arr;
