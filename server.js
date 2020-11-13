@@ -22,8 +22,17 @@ app.use(express.json());
 app.use(express.static("public"));
 
 
-//Initialize Mongo database named workoutsdb
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout");
+//Initialize Mongo database named workout
+mongoose.connect(
+    process.env.MONGODB_URI || "mongodb://localhost/workout",
+    {
+        useNewUrlParser: true,
+        useUnifiedTopology: true,
+        useCreateIndex: true,
+        useFindAndModify: false
+    }
+);
+
 
 //Add routes
 require("./routes/api-routes")(app);
