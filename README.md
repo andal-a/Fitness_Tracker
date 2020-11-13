@@ -41,7 +41,7 @@ The front-end of this code was provided by Trilogy Education.
 
 ## Contribution
 Direct any questions, comments, or issues to:
-[andal-a] [Email](mailto:aandal77@gmail.com) | [GitHub Profile](https://www.github.com/andal-a)
+Amor Andal: [Email](mailto:aandal77@gmail.com) | [GitHub Profile](https://www.github.com/andal-a)
 
 ## Links
 [Start Your Fitness Journey](https://andal-a.github.io/Fitness_Tracker/)
